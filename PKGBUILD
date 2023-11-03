@@ -1,6 +1,6 @@
 pkgname=apocos-base
 pkgver=0.0.2
-pkgrel=1
+pkgrel=2
 pkgdesc="Base system configuration for Apocalypse OS"
 arch=('any')
 url="https://github.com/PrepperArch/apocos-base"
@@ -18,7 +18,7 @@ depends=(
     'pipewire' 'wireplumber' 'pipewire-audio' 'pipewire-alsa'
 
     # Network
-    'dhcpd' 'networkmanager' 'firewalld' 'curl'
+    'dhcpcd' 'networkmanager' 'firewalld' 'curl'
 
     # Utilities
     'bat' 'brightnessctl' 'less' 'tmux'
