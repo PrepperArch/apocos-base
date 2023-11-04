@@ -1,6 +1,6 @@
 pkgname=apocos-base
 pkgver=0.0.3
-pkgrel=2
+pkgrel=3
 pkgdesc="Base system configuration for Apocalypse OS"
 arch=('any')
 url="https://github.com/PrepperArch/apocos-base"
@@ -14,7 +14,7 @@ sha256sums=(
 )
 depends=(
     # System
-    'linux' 'linux-firmware' 'mkinitcpio'
+    'linux' 'linux-firmware' 'mkinitcpio' 'man-db'
 
     # Services
     'dbus' 'bluez' 'bluez-utils' 'power-profiles-daemon'
