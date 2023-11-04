@@ -27,7 +27,7 @@ depends=(
     'dhcpcd' 'networkmanager' 'firewalld' 'curl'
 
     # Utilities
-    'bat' 'brightnessctl' 'less' 'tmux' 'sudo'
+    'bat' 'brightnessctl' 'which' 'less' 'tmux' 'sudo'
 
     # Editors
     'neovim'
