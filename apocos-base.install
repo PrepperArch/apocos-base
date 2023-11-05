@@ -1,7 +1,4 @@
 post_install() {
-    useradd -s /usr/bin/bash -m -U -G wheel,network prepper
-    echo 'prepper:prepper' | chpasswd --crypt-method SHA512
-
     systemctl enable --now NetworkManager
     systemctl enable --now systemd-resolved
     systemctl enable --now firewalld
