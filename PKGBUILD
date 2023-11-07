@@ -1,6 +1,6 @@
 pkgname=apocos-base
 pkgver=0.0.4
-pkgrel=3
+pkgrel=4
 pkgdesc="Base system configuration for Apocalypse OS"
 arch=('any')
 url="https://github.com/PrepperArch/apocos-base"
