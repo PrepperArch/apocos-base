@@ -16,7 +16,7 @@ sha256sums=(
 )
 depends=(
     # System
-    'linux' 'linux-firmware' 'mkinitcpio' 'man-db'
+    'linux' 'linux-firmware' 'mkinitcpio' 'man-db' 'acpi'
 
     # Services
     'dbus' 'bluez' 'bluez-utils' 'power-profiles-daemon'
